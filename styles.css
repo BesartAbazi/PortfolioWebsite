@@ -40,21 +40,9 @@ li {
     padding: 10px;
     height: 100%;
 
-    border-bottom: 4px solid white;
-
     box-sizing: border-box;
 
     display: inline-block;
-}
-
-li:hover{
-    margin: 0px;
-    padding: 10px;
-    height: 100%;
-
-    border-bottom: 4px solid #3f3f91;
-
-    box-sizing: border-box;
 }
 
 a {
@@ -78,40 +66,38 @@ a:hover{
 .projects{
     margin: 0px;
     padding: 0px;
-    width: 264px;
+    width: 265px;
     height: 0px;
-    top: 60px;
+    transition: height 0.2s;
+    top: 54px;
     left: 145px;
 
     box-sizing: border-box;
 
     background-color: white;
-    opacity: 0.9;
+    
 
     position: fixed;
     z-index: 10;
-
-    display: none;
 }
 
 .projectsActive{
+    display: block;
     margin: 0px;
     padding: 0px;
-    width: 264px;
-    height: 220px;
-    transition: height 0.2s ease-in;
-    top: 60px;
+    width: 265px;
+    height: 200px;
+    transition: height 0.2s;
+    top: 54px;
     left: 145px;
 
     box-sizing: border-box;
 
     background-color: white;
-    opacity: 0.9;
+    
 
     position: fixed;
     z-index: 10;
-
-    display: block;
 }
 
 main{
