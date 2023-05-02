@@ -26,7 +26,7 @@ nav{
     z-index: 10;
 }
 
-ul{
+nav ul{
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -35,7 +35,7 @@ ul{
     box-sizing: border-box;
 }
 
-li {
+nav ul li {
     margin: 0px;
     padding: 10px;
     height: 100%;
@@ -43,6 +43,34 @@ li {
     box-sizing: border-box;
 
     display: inline-block;
+}
+
+nav div ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav div ul li {
+    border-left: 4px solid #AAAAAA;
+    
+    box-sizing: border-box;
+}
+
+nav div ul li:hover {
+    background-color: white;
+    opacity: 1;
+    border-left: 4px solid #EEEEEE;
+}
+
+nav div ul li a:hover {
+    color: #222222;
 }
 
 a {
@@ -67,15 +95,15 @@ a:hover{
     margin: 0px;
     padding: 0px;
     width: 265px;
-    height: 0px;
+    max-height: 0px;
     transition: height 0.2s;
     top: 54px;
     left: 145px;
 
-    box-sizing: border-box;
-
     background-color: white;
-    
+
+    box-sizing: border-box;
+    overflow: hidden;
 
     position: fixed;
     z-index: 10;
@@ -86,15 +114,15 @@ a:hover{
     margin: 0px;
     padding: 0px;
     width: 265px;
-    height: 200px;
-    transition: height 0.2s;
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in;
     top: 54px;
     left: 145px;
 
-    box-sizing: border-box;
-
     background-color: white;
-    
+    overflow:hidden;
+
+    box-sizing: border-box;
 
     position: fixed;
     z-index: 10;
