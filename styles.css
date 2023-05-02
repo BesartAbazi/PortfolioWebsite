@@ -17,10 +17,11 @@ nav{
     top: 10px;
     left: 10px;
 
-    box-sizing: border-box;
-
+    border-top: 4px solid #AAAAEE;
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.95;
+
+    box-sizing: border-box;
 
     position: fixed;
     z-index: 10;
@@ -58,7 +59,7 @@ nav div ul{
 }
 
 nav div ul li {
-    border-left: 4px solid #AAAAAA;
+    border-left: 4px solid #AAAAEE;
     
     box-sizing: border-box;
 }
@@ -66,7 +67,7 @@ nav div ul li {
 nav div ul li:hover {
     background-color: white;
     opacity: 1;
-    border-left: 4px solid #EEEEEE;
+    border-left: 4px solid #CCCCDD;
 }
 
 nav div ul li a:hover {
@@ -86,43 +87,22 @@ a {
 }
 
 a:hover{
-    color: #5555BB;
+    color: #8282ee;
 
     box-sizing: border-box;
 }
 
-.projects{
+.linkBar{
     margin: 0px;
     padding: 0px;
-    width: 265px;
+    width: auto;
     max-height: 0px;
-    transition: height 0.2s;
-    top: 54px;
-    left: 145px;
+    transition: max-height 0.5s;
 
     background-color: white;
 
     box-sizing: border-box;
     overflow: hidden;
-
-    position: fixed;
-    z-index: 10;
-}
-
-.projectsActive{
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    width: 265px;
-    max-height: 1000px;
-    transition: max-height 0.5s ease-in;
-    top: 54px;
-    left: 145px;
-
-    background-color: white;
-    overflow:hidden;
-
-    box-sizing: border-box;
 
     position: fixed;
     z-index: 10;
@@ -175,6 +155,7 @@ main{
     width: 60%;
     min-height: auto;
 
+    border-top: 4px solid #AAAAEE;
     background-color: white;
     opacity: 0.9;
 
