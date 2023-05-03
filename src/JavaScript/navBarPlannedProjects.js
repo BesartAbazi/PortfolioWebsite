@@ -1,4 +1,4 @@
-import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects } from './init.js';
+// import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects } from './init.js';
 
 const activatePlannedProjectsBar = () => {
     plannedProjects.style.maxHeight = '500px';

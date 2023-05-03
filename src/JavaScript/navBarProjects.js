@@ -1,5 +1,4 @@
-alert('aaaaaaaaaa')
-import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects } from './init.js';
+// import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects } from './init.js';
 
 const activateProjectsBar = () => {
     projects.style.maxHeight = '500px';

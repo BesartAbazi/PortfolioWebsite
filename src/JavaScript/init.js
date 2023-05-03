@@ -5,4 +5,4 @@ let linkProjects = document.getElementById('linkProjects');
 let linkHome = document.getElementById('linkHome');
 let linkPlannedProjects = document.getElementById('linkPlannedProjects');
 
-export { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects };
+// export { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects };
