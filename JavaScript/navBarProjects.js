@@ -1,3 +1,6 @@
+alert('aaaaaaaaaa')
+import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects } from './init.js';
+
 const activateProjectsBar = () => {
     projects.style.maxHeight = '500px';
     projects.style.left = linkProjects.offsetLeft + 10 + 'px';
@@ -8,7 +11,9 @@ const deActivateProjectsBar = () => {
 }
 
 // active the projects bar
-linkProjects.onmouseover = activateProjectsBar;
-
+linkProjects.addEventListener('mouseover', activateProjectsBar);
 // deactive the projects bar
-nav.onmouseleave = projects.onmouseleave = linkHome.onmouseover = linkPlannedProjects.onmouseover = deActivateProjectsBar;
+nav.addEventListener('mouseleave', deActivateProjectsBar);
+projects.addEventListener('mouseleave', deActivateProjectsBar);
+linkHome.addEventListener('mouseover', deActivateProjectsBar);
+linkPlannedProjects.addEventListener('mouseover', deActivateProjectsBar);
