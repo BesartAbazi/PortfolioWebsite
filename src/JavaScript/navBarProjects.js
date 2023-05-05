@@ -11,8 +11,14 @@ const deActivateProjectsBar = () => {
 
 // active the projects bar
 linkProjects.addEventListener('mouseover', activateProjectsBar);
+
 // deactive the projects bar
 nav.addEventListener('mouseleave', deActivateProjectsBar);
 projects.addEventListener('mouseleave', deActivateProjectsBar);
 linkHome.addEventListener('mouseover', deActivateProjectsBar);
 linkPlannedProjects.addEventListener('mouseover', deActivateProjectsBar);
+
+// Links
+linkProjects.onmouseup = () => {
+    linkNewPage('projects.html') 
+};
