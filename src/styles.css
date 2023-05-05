@@ -66,8 +66,7 @@ nav div ul li {
 
 nav div ul li:hover {
     background-color: white;
-    opacity: 1;
-    border-left: 4px solid #CCCCDD;
+    border-left: 4px solid white;
 }
 
 nav div ul li a:hover {
@@ -157,7 +156,7 @@ main{
 
     border-top: 4px solid #AAAAEE;
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.95;
 
     box-sizing: border-box;
 }
@@ -169,7 +168,7 @@ footer{
     min-height: 100px;
 
     border-bottom: 4px solid #AAAAEE;
-    background-color: antiquewhite;
+    background-color: linen;
 
     box-sizing: border-box;
 
