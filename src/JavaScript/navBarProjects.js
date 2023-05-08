@@ -1,4 +1,4 @@
-import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects } from './init.js';
+import { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects, linkNewPage } from './init.js';
 
 const activateProjectsBar = () => {
     projects.style.maxHeight = '500px';
@@ -20,5 +20,5 @@ linkPlannedProjects.addEventListener('mouseover', deActivateProjectsBar);
 
 // Links
 linkProjects.onmouseup = () => {
-    linkNewPage('projects.html') 
+    linkNewPage('projects.html');
 };

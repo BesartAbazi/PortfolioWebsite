@@ -155,6 +155,8 @@ main{
     width: 60%;
     min-height: auto;
 
+    font-family: 'Titillium Web';
+
     border-top: 4px solid #AAAAEE;
     background-color: white;
     opacity: 0.95;
