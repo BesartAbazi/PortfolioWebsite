@@ -9,4 +9,6 @@ const linkNewPage = (linkAddress) => {
     location.href = linkAddress;
 }
 
-// export { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects };
+
+
+//export { nav, projects, plannedProjects, linkProjects, linkHome, linkPlannedProjects };
