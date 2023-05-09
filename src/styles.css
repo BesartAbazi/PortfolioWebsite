@@ -163,6 +163,10 @@ main{
     box-sizing: border-box;
 }
 
+#mainContent:hover{
+    opacity: 0.94;
+}
+
 footer{
     margin: 0px;
     padding: 0px;
