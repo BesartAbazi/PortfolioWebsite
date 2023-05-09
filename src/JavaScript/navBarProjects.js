@@ -21,4 +21,4 @@ linkPlannedProjects.addEventListener('mouseover', deActivateProjectsBar);
 // Links
 linkProjects.onmouseup = () => {
     linkNewPage('projects.html');
-};
+};       
