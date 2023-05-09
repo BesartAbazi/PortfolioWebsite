@@ -21,6 +21,7 @@ nav{
 
     border-top: 4px solid #AAAAEE;
     background-color: white;
+    box-shadow: 2px 4px 8px #000000;
     opacity: 0.9;
 
     box-sizing: border-box;
@@ -115,7 +116,7 @@ main{
     min-height: 800px;
 
     background-image: url('./Images/HightTech_Background_2.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
 
@@ -158,6 +159,7 @@ main{
 
     border-top: 4px solid #AAAAEE;
     background-color: white;
+    box-shadow: 2px 4px 8px #000000;
     opacity: 0.9;
 
     box-sizing: border-box;
