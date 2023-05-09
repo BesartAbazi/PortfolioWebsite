@@ -5,6 +5,8 @@ html {
 body{
     margin: 0px;
     padding: 0px;
+
+    font-family: 'Titillium Web';
     
     box-sizing: border-box;
 }
@@ -19,7 +21,7 @@ nav{
 
     border-top: 4px solid #AAAAEE;
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.9;
 
     box-sizing: border-box;
 
@@ -78,7 +80,6 @@ a {
     padding: 0px;
 
     color: #222222;
-    font-family: 'Titillium Web';
     font-weight: 500;
     text-decoration: none;
 
@@ -140,7 +141,7 @@ main{
 
 #logo{
     height: 100%;
-    opacity: 0.85;
+    opacity: 0.8;
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -152,14 +153,12 @@ main{
 #mainContent{
     margin: 0px;
     padding: 4px;
-    width: 60%;
-    min-height: auto;
-
-    font-family: 'Titillium Web';
+    width: 80%;
+    min-height: 200px;
 
     border-top: 4px solid #AAAAEE;
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.9;
 
     box-sizing: border-box;
 }
@@ -178,6 +177,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 

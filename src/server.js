@@ -37,7 +37,7 @@ http.createServer(function (request, response) {
             // Output a green line to the console explaining what folder was requested
             console.log('FLDR: ' + filename);
             // redirect the user to the index.html in the requested folder
-            filename += '/index.html';
+            filename += './index.html';
         }
 
         // Assuming the file exists, read it
